@@ -20,7 +20,8 @@ var firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 firebase.auth.Auth.Persistence.LOCAL;
 
